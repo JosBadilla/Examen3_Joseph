@@ -1,0 +1,21 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Sitio.master.cs" Inherits="Examen3_Joseph.Sitio" %>
+
+<!DOCTYPE html>
+<html>
+<head runat="server">
+    <title>Tu Sitio - Encuestas</title>
+    <asp:ContentPlaceHolder ID="head" runat="server"></asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="menu">
+            <ul>
+                <li><a href="LlenarEncuesta.aspx">Llenar Encuesta</a></li>
+                <li><a href="VerReportes.aspx">Ver Reportes</a></li>
+            </ul>
+        </div>
+        <asp:ContentPlaceHolder ID="MainContent" runat="server"></asp:ContentPlaceHolder>
+    </form>
+</body>
+</html>
+
